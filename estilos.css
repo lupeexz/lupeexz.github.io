@@ -1,0 +1,119 @@
+body{
+background-color: black;
+}
+img{
+  border-radius: 50%;
+}
+.cabeca{
+  text-align: center;
+  background-color: burlywood;
+    text-align: left;
+    font-weight: bold;
+  width: 25%;
+}
+.meu-botao1 {
+  background-color: white;
+    color:  black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    font-weight: bold;
+    tex
+  }
+  .meu-botao1:hover {
+    background-color: rgb(185, 185, 185);
+  }
+
+
+  .meu-botao2 {
+    background-color: #fff;
+    color:  black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    font-weight: bold;
+    
+  }
+  
+  .meu-botao2:hover {
+    background-color: rgb(185, 185, 185);
+  }
+
+
+  .meu-botao3 {
+    background-color: #fff;
+    color:  black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 200px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    font-weight: bold;
+  }
+  
+  .meu-botao3:hover {
+    background-color: rgb(185, 185, 185);
+  }
+
+
+  .meu-botao4 {
+    background-color: #fff;
+    color:  black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .meu-botao4:hover {
+    background-color: rgb(185, 185, 185);
+  }
+  
+  .meu-botao5 {
+    background-color: #fff;
+    color:  black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    font-weight: bold;
+  }
+  
+  .meu-botao5:hover {
+    background-color: rgb(185, 185, 185);
+  }
+  
+.corpo{
+  background-color: darkblue;
+  text-align: center;
+  font-weight: bold;
+  width: 50%;
+}
+td{
+  padding: 10px;
+}
+.corpo{
+  background-color: wheat;
+  font-weight: bold;
+  width: 60%;
+  text-decoration: none;
+}
+.corpo1{
+  background-color: wheat;
+  font-weight: bold;
+  width: 60%;
+text-decoration: none;
+}
+.rodape{
+  text-align: right;
+  background-color: black;
+  color: #fff;
+}
