@@ -1,77 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js"></script>
+    <script src="js/modal.js"></script>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio Gustavo Lupi</title>
+    <header class="header">
+        <a class="btn-header" href="index.html">Home</a>
+        <a class="btn-header" href="sobre.html">Sobre</a>
+        <a class="btn-header" href="contato.html">Contato</a>
+    </header>
 </head>
 <body>
-    <center>
-    <header>
-        <table>
-        <td>
-            <img src="./fotos/fotoportfolio.jpg" height="100" ></td>
-        <td>Gustavo Lupi</td>
-        <td><div class="dropdown">
-            <button class="dropbtn" a href="projetos.html">Projetos</button>
-            <div class="dropdown-content">
-            <a href="projetos.html">Projetos</a>
-           
+    <main class="main">
+        <div class="container">
+            <div class="content">
+                <div class="container-myself">
+                <h1>Olá, eu sou Gustavo Lupi</h1>
+                <h3>Desenvolvedor Full stack</h3>
+                <h4> Python | HTML5| CSS3 | Java | JavaScript | MySQL | Flutter |</h4>
+                <p>Eu sou o Gustavo Lupi, tenho 17 anos, e atualmente estou cursando Análise e Desenvolvimento de Sistemas na faculdade FACENS.</p>
+                <p>Já tenho conhecimento em várias linguagens de programação como Python, Java, JavaScript, HTML5, CSS3, MySQL, Flutter e Dart. Comecei a mexer com programação no SENAI, onde tive meu primeiro contato com a área. O SENAI, em conjunto com o SESI, me proporcionou a oportunidade de fazer cursos e me preparou para o mercado de trabalho. Sou muito grato ao SENAI por toda a base e conhecimento que adquiri lá.</p>
+                </div>
+                <div class="container-comp">
+                    <h1>Minhas Competencias</h1>
+                    <ul>
+                    <img class="img-container" src="./assets/icons/icon-html.png" alt="">
+                    <img class="img-container" src="./assets/icons/icon-css.png" alt="">
+                    <img class="img-container" src="./assets/icons/icon-js.png" alt="">
+                    <img class="img-container" src="./assets/icons/icon-java.png" alt="">
+                    <img class="img-container" src="./assets/icons/icon-python.png" alt="">
+                    <img class="img-container" src="./assets/icons/icon-mysql.png" alt="">
+                    <img class="img-container" src="./assets/icons/icon-flutter.png" alt="">
+                </ul>
+                <a class="btn-comp" id="button" onclick="openModal()">Ver Mais</a>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal()">&times;</span>
+                        <h3><img class="img-container" src="./assets/icons/icon-html.png" alt="HTML Icon" style="width: 20px; height: 20px;"> HTML:</h3>
+                        <p>Com HTML, aprendi a estruturar páginas web de forma semântica e organizada, utilizando tags apropriadas para cabeçalhos, parágrafos, listas, links e imagens. Também aprendi a criar formulários interativos, incorporar multimídia e garantir a acessibilidade do site. HTML é essencial para o desenvolvimento de interfaces de usuário eficientes e intuitivas.</p>
+                        <h3><img class="img-container" src="./assets/icons/icon-css.png" alt="CSS Icon" style="width: 20px; height: 20px;"> CSS:</h3>
+                        <p>Com CSS, aprendi a estilizar páginas web, aplicando cores, fontes, espaçamentos e layouts responsivos. Utilizei seletores, pseudo-classes e pseudo-elementos para personalizar a aparência dos elementos HTML. Também aprendi a criar animações e transições para melhorar a experiência do usuário.</p>
+                        <h3><img class="img-container" src="./assets/icons/icon-js.png" alt="JavaScript Icon" style="width: 20px; height: 20px;"> JavaScript:</h3>
+                        <p>Com JavaScript, aprendi a adicionar interatividade às páginas web, manipulando o DOM e respondendo a eventos do usuário. Utilizei funções, objetos e arrays para criar scripts dinâmicos e eficientes. Também explorei bibliotecas e frameworks como React e jQuery para desenvolver aplicações web complexas.</p>
+                        <h3><img class="img-container" src="./assets/icons/icon-java.png" alt="Java Icon" style="width: 20px; height: 20px;"> Java:</h3>
+                        <p>Com Java, aprendi a desenvolver aplicações robustas e escaláveis, utilizando a orientação a objetos e padrões de design. Trabalhei com classes, interfaces e herança para criar programas modulares e reutilizáveis. Também explorei frameworks como Spring e Hibernate para desenvolver aplicações empresariais.</p>
+                        <h3><img class="img-container" src="./assets/icons/icon-python.png" alt="Python Icon" style="width: 20px; height: 20px;"> Python:</h3>
+                        <p>Com Python, estou aprendendo a desenvolver scripts simples e eficientes. Estou explorando sua sintaxe fácil de entender e começando a trabalhar com bibliotecas básicas para análise de dados e desenvolvimento web.</p>
+                        <h3><img class="img-container" src="./assets/icons/icon-mysql.png" alt="MySQL Icon" style="width: 20px; height: 20px;"> MySQL:</h3>
+                        <p>Com MySQL, aprendi a criar e gerenciar bancos de dados relacionais, utilizando SQL para manipulação de dados. Trabalhei com tabelas, consultas, joins e índices para garantir a integridade e performance dos dados. Também explorei técnicas de normalização e otimização de consultas.</p>
+                        <h3><img class="img-container" src="./assets/icons/icon-flutter.png" alt="Flutter Icon" style="width: 20px; height: 20px;"> Flutter:</h3>
+                        <p>Com Flutter, aprendi a desenvolver aplicações móveis nativas para Android e iOS, utilizando a linguagem Dart. Trabalhei com widgets, state management e animações para criar interfaces de usuário modernas e responsivas. Também explorei pacotes e plugins para adicionar funcionalidades às aplicações.</p>
+                    </div>
+                </div>
+                </div>
+                </div>
             </div>
-          </div>
-        </td>
-        <td><div class="dropdown">
-            <button class="dropbtn">Certificados </button>
-            <div class="dropdown-content">
-            <a href="https://www.sp.senai.br/consulta-certificado?qrcode=00021879/7199787">Desvendando o 5G</a>
-            <a href="https://www.sp.senai.br/consulta-certificado?qrcode=00018629/7199787">LGPD</a>
-            <a href="https://www.sp.senai.br/consulta-certificado?qrcode=00021876/7199787">Economia circular</a>
-            <a href="https://www.sp.senai.br/consulta-certificado?qrcode=00021878/7199787">Competência Transversal</a>
-            </div>
-          </div>
-        </td>
-    </div>
-    </table>
-    </header>
-    <table> 
-<td><div class="text">
-    <h1>Sobre Mim</h1>
-    <hr align="100%">
-    <p>Meu nome é Gustavo Henrique Lupi Tenho 16 Anos e atualmente estou estudando no sesi e estou no segundo ano do ensino medio,
-        e cursando desenvolvimento de sistemas no Senai.
-        quero cursar a faculdade de desenvolvimento de sistemas
-        e trabalhar no ramo de programação.
-    </p>
-</div>
-</td>
- <td><div class="text">
-        <h1>Contato </h1>
-        <hr align="100%">
-        <table>
-        <a href="https://github.com/lupeexz">
-            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="50">
-        </a>
-        <a href="https://www.instagram.com/">
-            <img src="https://img.freepik.com/vetores-premium/logo-de-midia-social-quadrado-preto_197792-3367.jpg?w=2000"height="50">
-        </a> 
-        <a href="https://www.linkedin.com/in/gustavo-lupi-a9338626b/">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz2d926A80BELxH3syzQdniWf-7SoJ3xOQ3w&usqp=CAU" height="50">
-        </a>
-        <a href="https://open.spotify.com/playlist/1xZal10UgIMhg3VE5mmjAz?si=12c36afc34bd4701">
-            <img src="https://thumbs.dreamstime.com/b/%C3%ADcone-de-spotify-impresso-no-papel-125277235.jpg" height="50">
-        </a>
-    </table>
         </div>
-<td><div class="text">
-        <h1>Competências</h1>
-        <hr align="100%">
-        <img src="https://www.ifpe.edu.br/campus/palmares/noticias/divulgado-resultado-do-curso-de-extensao-em-java/javalogo.png" width="50">
-        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" width="50">
-        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" width="50">
-        <img src="https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/excel.png" width="50">
-        <img src="https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/word.png" width="50">
-</div></td>
-</body>
+        <div class="container-myimg" id="container">
+            <img class="container-myimg" id="image" src="assets/foto1.png" alt="Gustavo Lupi">
+        </div>
+    </main>
+    <a href="https://www.linkedin.com/in/gustavo-lupi-a9338626b/"><img src="" alt="">.</a>
+    <footer class="footer">
+        <p>Desenvolvido por Gustavo Lupi
+        
+        </p>
+    </footer>
+</body> 
 </html>
